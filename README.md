@@ -16,14 +16,19 @@ This project demonstrates exploratory data analysis, hypothesis testing, one-way
 ## Steps
 1. Data Cleaning: Handle missing values, outliers, and data types.
 2. Descriptive Statistics: Explore data distribution with histograms and boxplots.
-3. Hypothesis Formulation:
+   ![Income Distribution](./images/distribution_plot.png)
+   Most of the incomes fall within the range of 30,000 to 80,000. The distribution is positively skewed, indicating that the majority of customers have relatively low incomes.
+   ![Income Distribution](./images/boxplot_income_education.png)
+    Individuals with higher education levels such as Graduation, PhD, and Master tend to have higher incomes and more variability in their earnings. Outliers are prevalent in higher education levels.
+4. Hypothesis Formulation:
    - H0: No significant difference in income across education levels.
    - H1: Significant difference in income across education levels.
-4. One-Way ANOVA: Test income differences across multiple education levels.
-5. Independent T-Test: Compare income between two specific education groups.
-6. Interpretation: Draw conclusions from statistical tests.
+5. One-Way ANOVA: Test income differences across multiple education levels.
+6. Independent T-Test: Compare income between two specific education groups.
+7. Interpretation: Draw conclusions from statistical tests.
 
 ## Files
-- `notebook/`: Jupyter Notebook with the full analysis and code, The dataset used for this project.
+- `notebook/`: Jupyter Notebook with the full analysis and code.
+- `data/`: The dataset used for this project.
 - `reports/Analysis_Report.pdf`: A summary report of the analysis.
 - `images/`: Visualizations such as histograms, boxplots, etc.
